@@ -6,9 +6,9 @@ const canGiveBlood = (bloodtypeDonor, bloodtypeRecipient) => {
         if (bloodtypeDonor.includes("O")) {
         bloodtype = true;
         } 
-            else if (bloodtypeRecipient.includes("AB")) {
-            bloodtype = true;
-            }     
+        else if (bloodtypeRecipient.includes("AB")) {
+        bloodtype = true;
+        }     
         else if (bloodtypeDonor[0] === bloodtypeRecipient[0]) {
         bloodtype = true;
         } 
